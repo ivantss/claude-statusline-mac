@@ -1,6 +1,6 @@
-# claude-statusline
+# claude-statusline-mac
 
-A two-line status bar for [Claude Code](https://code.claude.com): model, context, **prompt-cache countdown**, and **time left on each quota**.
+A two-line status bar for [Claude Code](https://code.claude.com) on **macOS** (Linux should work; Windows not supported): model, context, **prompt-cache countdown**, and **time left on each quota**.
 
 ```
 Opus 5.5 (1M context) high · ctx █░░░░░ 84k/1M · cache 41 min (hit 91%)
@@ -47,10 +47,10 @@ Pro and Max plans have two limits: a rolling **5-hour** window and a **weekly** 
 
 ## Install
 
-One line (macOS / Linux, needs `python3`):
+One line (macOS, needs `python3`):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline-mac/main/install.sh | bash
 ```
 
 Then restart Claude Code.
@@ -60,7 +60,7 @@ The installer copies `statusline.py` to `~/.claude/claude-statusline/` and sets 
 ## Uninstall
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline/main/install.sh | bash -s -- --uninstall
+curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline-mac/main/install.sh | bash -s -- --uninstall
 ```
 
 ## Options (environment variables)

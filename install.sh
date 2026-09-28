@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # claude-statusline installer.
-#   Install:   curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline/main/install.sh | bash
-#   Uninstall: curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline/main/install.sh | bash -s -- --uninstall
+#   Install:   curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline-mac/main/install.sh | bash
+#   Uninstall: curl -fsSL https://raw.githubusercontent.com/ivantss/claude-statusline-mac/main/install.sh | bash -s -- --uninstall
 set -euo pipefail
 
-REPO_RAW="https://raw.githubusercontent.com/ivantss/claude-statusline/main"
+REPO_RAW="https://raw.githubusercontent.com/ivantss/claude-statusline-mac/main"
 DIR="$HOME/.claude/claude-statusline"
 SETTINGS="$HOME/.claude/settings.json"
 
